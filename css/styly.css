@@ -1,0 +1,110 @@
+/* CSS Document */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+#obal {
+  max-width: 960px;
+  margin: 0% auto;
+  border: black 1px;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  
+}
+
+nav {
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+nav a {
+  padding: 19px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  color: rgb(0, 153, 204);
+  font-variant: small-caps;
+  line-height: 2cm;
+}
+
+h2, h3 {
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h3 { 
+  font-size: 1.2em;
+  border-bottom: 1px dotted; 
+}
+
+p, li {
+  line-height: 1.5em;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+  
+}
+
+b{
+  color: rgb(0, 155, 200);
+}
+
+.poznamka{
+border-left: gray solid 10px;
+padding-left: 50px;
+font-size: 90%;
+font-style: italic;
+} 
+    
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+mark {
+  background-color: rgb(100, 150, 0);
+  color: white;
+}
+
+.mid {
+  text-align: center;
+}
+
